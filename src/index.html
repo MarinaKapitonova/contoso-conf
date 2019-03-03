@@ -44,7 +44,13 @@
  </section>
     <section class="video">
         <h2>Video from last year</h2>
-        <video scr="http://ak.channel9.msdn.com/ch9/265b/9a76fccd-941e-4285-ad00-9ea200aa265b/MIX09KEY01_high_ch9.mp4"></video>
+        <video controls width="360" height="240">
+            <sourse src="video/videojs.mp4" type='"video/mp4" codecs="avc1.42E01E, mp4a.40.2"' />
+                <object type="application/x-shockwave-flash" width="360" height="240" data="player.swf?file=videojs.mp4">
+                    <param name="movie" value="player.swf?file=videojs.mp4">
+                    <a href="videojs.mp4">Download the movie</a>
+                </object>
+        </video>
     <button class="video-play">play</button>
         <button class="video-pause">pause</button>
     </section>

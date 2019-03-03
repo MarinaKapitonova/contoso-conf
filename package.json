@@ -1,18 +1,22 @@
 {
-  "name": "website.html",
+  "name": "node-dock",
   "version": "1.0.0",
-  "main": "src/index.js",
   "description": "Dockerfiles for Node.js Web Apps",
+  "main": "server.js",
+  "scripts": {
+    "start": "index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1"
+  },
   "repository": {
     "type": "git",
-    "url": "github.com/MarinaKapitonova/kurs"
+    "url": "github.com/MarinaKapitonova/contoso-conf.git"
   },
-  "scripts": {
-    "start": "node index.js"
-  },
-  "author": "MarinaKapitonova <marinaveremee@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "express": "^4.16.4"
-  }
+  "keywords": [
+    "dockerfile",
+    "nodejs"
+  ],
+  "author": "marinaveremee@gmail.com",
+  "license": "ISC"
 }
