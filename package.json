@@ -11,12 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "github.com/MarinaKapitonova/ContosoC.git"
+    "url": "github.com/MarinaKapitonova/contoso-conf.git"
   },
   "keywords": [
     "dockerfile",
     "nodejs"
   ],
-  "author": "praveen@hasura.io",
+  "author": "marinaveremee@gmail.com",
   "license": "ISC"
 }
