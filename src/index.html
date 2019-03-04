@@ -10,6 +10,7 @@
     <div class="container">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
+        <a href="location.html">Location</a>
     </div>
     </nav>
     <header>
@@ -43,16 +44,15 @@
    </ul>
  </section>
     <section class="video">
-        <h2>Video from last year</h2>
-        <video controls width="360" height="240">
-            <sourse src="video/videojs.mp4" type='"video/mp4" codecs="avc1.42E01E, mp4a.40.2"' />
-                <object type="application/x-shockwave-flash" width="360" height="240" data="player.swf?file=videojs.mp4">
-                    <param name="movie" value="player.swf?file=videojs.mp4">
-                    <a href="videojs.mp4">Download the movie</a>
-                </object>
+        <h2>Video</h2>
+
+        <video id="origVideo" width="360" height="240" style="border: 1px solid grey">
+            <source src="video/videojs.mp4" />
+
         </video>
-    <button class="video-play">play</button>
-        <button class="video-pause">pause</button>
+
+        <button title="Play" onclick="generatePreview();">Play</button>
+        <button title="Pause" onclick="generetePause();">Pause</button>
     </section>
  <footer>
     <p>Hosted by Contoso</p>
@@ -64,5 +64,16 @@
 </address>
     <p> 2012 Contoso</p>
  </footer>
+    <script>
+        function generatePreview() {
+            var video = document.getElementById('origVideo');
+
+            video.addEventListener('play', function () {
+                drawVideo(this);
+            }, false);
+
+            video.play();
+        }
+    </script>
 </body>
 </html>
