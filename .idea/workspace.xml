@@ -2,26 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e02d06b-6e80-4f4f-aab2-15b145966010" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/location.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dockerignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/website.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/speakers/april-meyer.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/speakers/april-meyer.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/speakers/david-alexander.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/speakers/david-alexander.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/speakers/mark-hanson.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/speakers/mark-hanson.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/speakers/melissa-kerr.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/speakers/melissa-kerr.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/sponsors/sponsor1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/sponsors/sponsor1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/sponsors/sponsor2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/sponsors/sponsor2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/sponsors/sponsor3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/sponsors/sponsor3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/sponsors/sponsor4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/sponsors/sponsor4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/sponsors/sponsor5.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/sponsors/sponsor5.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/site.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -43,11 +26,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="73" column="12" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
+            <state relative-caret-position="246">
+              <caret line="27" column="30" lean-forward="true" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -121,7 +113,6 @@
         <option value="$PROJECT_DIR$/about.htm" />
         <option value="$PROJECT_DIR$/.dockerignore" />
         <option value="$PROJECT_DIR$/index.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/styles/about.js" />
         <option value="$PROJECT_DIR$/src/about.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
@@ -131,11 +122,12 @@
         <option value="$PROJECT_DIR$/src/styles/site.css" />
         <option value="$PROJECT_DIR$/src/about.html" />
         <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="230" />
+    <option name="x" value="229" />
     <option name="y" value="24" />
     <option name="width" value="1173" />
     <option name="height" value="723" />
@@ -249,15 +241,15 @@
       <workItem from="1551626277708" duration="277000" />
       <workItem from="1551626577689" duration="3679000" />
       <workItem from="1551634032838" duration="3076000" />
-      <workItem from="1551704628139" duration="2289000" />
+      <workItem from="1551704628139" duration="2658000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26841000" />
+    <option name="totallyTimeSpent" value="27210000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="230" y="24" width="1173" height="723" extended-state="0" />
+    <frame x="229" y="24" width="1173" height="723" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" id="Project" order="0" sideWeight="0.49833333" visible="true" weight="0.1640625" />
@@ -284,7 +276,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/styles/about.js" />
-    <entry file="file://$PROJECT_DIR$/.gitignore" />
     <entry file="file://$PROJECT_DIR$/.dockerignore" />
     <entry file="file://$PROJECT_DIR$/src/about.js" />
     <entry file="file://$PROJECT_DIR$/package-lock.json">
@@ -338,8 +329,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="73" column="12" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
+        <state relative-caret-position="246">
+          <caret line="27" column="30" lean-forward="true" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
