@@ -46,13 +46,20 @@
     <section class="video">
         <h2>Video</h2>
 
-        <video id="origVideo" width="360" height="240" style="border: 1px solid grey">
+        <!--<video id="origVideo" width="360" height="240" style="border: 1px solid grey">
             <source src="video/videojs.mp4" />
 
+
+        </video>-->
+        <video id="origVideo"  controls width="360" height="240">
+
+            <source src="video/videojs.mp4" type="video/mp4">
+            <object type="application/x-shockwave-flash" width="360" height="240" data="player.swf?file=movie.mp4">
+                <param name="movie" value="player.swf?file=videojs.mp4">
+                <a href="videojs.mp4">Download the movie</a>
+            </object>
         </video>
 
-        <button title="Play" onclick="generatePreview();">Play</button>
-        <button title="Pause" onclick="generetePause();">Pause</button>
     </section>
  <footer>
     <p>Hosted by Contoso</p>
@@ -64,16 +71,6 @@
 </address>
     <p> 2012 Contoso</p>
  </footer>
-    <script>
-        function generatePreview() {
-            var video = document.getElementById('origVideo');
 
-            video.addEventListener('play', function () {
-                drawVideo(this);
-            }, false);
-
-            video.play();
-        }
-    </script>
 </body>
 </html>
