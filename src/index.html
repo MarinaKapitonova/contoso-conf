@@ -1,22 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<meta charset="utf-8"/>
     <title>ContosoConf Home</title>
-    <meta charset="utf-8"/>
+    <script src="/node_modules/angular/angular.js"></script>
+    <link href="styles/nav.css" rel="stylesheet" type="text/css"/>
     <link href="styles/site.css" rel="stylesheet" type="text/css"/>
+    <link href="styles/header.css" rel="stylesheet" type="text/css"/>
+     <link href="styles/about.css" rel="stylesheet" type="text/css"/>
 </head>
-<body>
-    <nav>
+<body ng-app>
+    <div id="like_button_container"></div>
+    <nav class="page-nav">
     <div class="container">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="all.html">All</a>
-        <a href="imnostupid.html">ImNoStupid</a>
+        <a href="index.html" class="active" ng-click="active='home'">Home</a>
+        <a href="about.html" ng-click="active='avout'">About</a>
+        <a href="schedule.html" ng-click="active='schedule'">Schedule</a>
+        <a href="register.html" ng-click="active='register'">Register</a>
+        <a href="live.html" ng-click="active='live'">Live</a>
     </div>
     </nav>
-    <header>
+
+    <header class="page-header">
+    <div class="container">
     <h1>ContosoConf</h1>
-<p>A two-track conference on the latest HTML5 developments</p>
+<p class="tag-line">A two-track conference on the latest HTML5 developments</p>
+<a class="register" href="register.html">
+Register<br/>
+<span class="free">&#183; Free &#183;</span>
+</a>
+</div>
  </header>
  <section class="page section">
     <p> The web keeps evolving. There's a wealth of new technologies to keep up with! ContosoConf is an in-depth exploration of HTML5, CSS3 and JavaScript, in the heart of Seattle, WA.
@@ -27,13 +40,14 @@
      <h2>Featuring these excellent speakers</h2> </p>
  </section>
     <section class="speakers">
-    <ul>
+   <ul>
         <li> <img src="images/speakers/melissa-kerr.jpg" alt="Melissa Kerr"/> Melissa Kerr</li>
         <li> <img src="images/speakers/david-alexander.jpg" alt= "David Alexander"/> David Alexander</li>
         <li> <img src="images/speakers/mark-hanson.jpg" alt= "Mark Hanson"/> Markk Hanson</li>
         <li> <img src="images/speakers/april-meyer.jpg" alt="April Meyer"/> April Meyer</li>
     </ul>
     </section>
+
     <section class="sponsors">
     <h2>Thanks to our sponsors</h2>
     <ul>
@@ -44,19 +58,7 @@
    <li> <img src="images/sponsors/sponsor5.png" alt="Southridge Video"/> Southridge Video</li>
    </ul>
  </section>
-    <section class="video">
-        <h2>Video</h2>
 
-        <video id="origVideo"  controls width="360" height="240">
-
-            <source src="video/videojs.mp4" type="video/mp4">
-            <object type="application/x-shockwave-flash" width="360" height="240" data="player.swf?file=movie.mp4">
-                <param name="movie" value="player.swf?file=videojs.mp4">
-                <a href="videojs.mp4">Download the movie</a>
-            </object>
-        </video>
-
-    </section>
  <footer>
     <p>Hosted by Contoso</p>
 <address>
@@ -67,6 +69,10 @@
 </address>
     <p> 2012 Contoso</p>
  </footer>
+<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
 
+  <!-- Загрузим наш React-компонент. -->
+  <script src="like_button.js"></script>
 </body>
 </html>

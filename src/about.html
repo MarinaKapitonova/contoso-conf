@@ -3,40 +3,56 @@
 <head>
     <meta charset="utf-8"/>
     <title>ContosoConf About</title>
-    <link href="styles/site.css" rel="stylesheet" type="text/css"/>
+        <script src="/node_modules/angular/angular.js"></script>
+        <link href="styles/nav.css" rel="stylesheet" type="text/css"/>
+        <link href="styles/site.css" rel="stylesheet" type="text/css"/>
+        <link href="styles/header.css" rel="stylesheet" type="text/css"/>
+        <link href="styles/about.css" rel="stylesheet" type="text/css"/>
+
 </head>
 <body>
-    <nav>
+    <nav class="page-nav">
         <div class="container">
-                <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-            <a href="all.html">All</a>
-            <a href="imnostupid.html">ImNoStupid</a>
+
+               <a href="index.html" class="active" ng-click="active='home'">Home</a>
+               <a href="about.html" ng-click="active='avout'">About</a>
+               <a href="schedule.html" ng-click="active='schedule'">Schedule</a>
+               <a href="register.html" ng-click="active='register'">Register</a>
+               <a href="live.html" ng-click="active='live'">Live</a>
         </div>
     </nav>
-        <header>
+        <header class="page-header">
+        <div class="container">
                 <h1>ContosoConf</h1>
-            <p>A two-track conference on the latest HTML5 developments</p>
+            <p class="tag-line">A two-track conference on the latest HTML5 developments</p>
+             </div>
              </header>
-             <section class="page section-about">
+
+             <section class="page-section about">
                  <article class="container">
                      <h1>ContosoConf brings web designers and developers together</h1>
                     <section>
-                     <p>Since the very first Contoso Conf back in 2009, we've been guided by three principles:</p>
+                     <p>
+                     Since the very first Contoso Conf back in 2009, we've been guided by three principles:
+                     </p>
                     <ol>
                         <li>Community Matters</li>
                         <li>Never Stop Learning</li>
                         <li>Have fun!</li>
                     </ol>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae enim arcu, vitae aliquet purus. 
-                        Aenean rhoncus diam et orci porttitor fringilla. In porta lacus a turpis pretium placerat. Cras viverra 
-                        enim eu nibh pretium ornare. Praesent et adipiscing turpis. Duis mi risus, ornare at bibendum a, 
-                        ullamcorper vel tellus. Nulla in egestas velit. Aenean consequat mi sed tellus iaculis laoreet. Donec et 
-                        odio vel felis commodo porttitor.</p>
-                <p>Aenean id ligula est. Pellentesque ut magna ligula. Donec nunc eros, tincidunt sit amet sollicitudin 
-                        in, semper id mauris. Phasellus odio nulla, molestie ac gravida sed, dignissim in nisl. Nunc luctus 
-                        lobortis massa at dapibus. Aenean turpis nibh, hendrerit nec congue et, elementum a justo. Aenean sit 
-                        amet nulla odio. Cras feugiat porta risus nec pretium.</p>
+                <p>
+                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae enim arcu, vitae aliquet purus.
+                   Aenean rhoncus diam et orci porttitor fringilla. In porta lacus a turpis pretium placerat. Cras viverra
+                   enim eu nibh pretium ornare. Praesent et adipiscing turpis. Duis mi risus, ornare at bibendum a,
+                   ullamcorper vel tellus. Nulla in egestas velit. Aenean consequat mi sed tellus iaculis laoreet. Donec et
+                   odio vel felis commodo porttitor.
+                </p>
+                <p>
+                   Aenean id ligula est. Pellentesque ut magna ligula. Donec nunc eros, tincidunt sit amet sollicitudin
+                   in, semper id mauris. Phasellus odio nulla, molestie ac gravida sed, dignissim in nisl. Nunc luctus
+                   lobortis massa at dapibus. Aenean turpis nibh, hendrerit nec congue et, elementum a justo. Aenean sit
+                   amet nulla odio. Cras feugiat porta risus nec pretium.
+                </p>
                 <h2>What's It All About?</h2>
                 <p>Donec vel sem ut dui vulputate porta. Phasellus imperdiet sapien a arcu adipiscing vitae adipiscing 
                         elit pharetra. Donec sed ante ut eros mattis bibendum non in erat. Donec sagittis, massa eu accumsan 
